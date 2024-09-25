@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = 'https://example.com'  # Replace with the target URL
+url = 'https://en.wikipedia.org/wiki/Main_Page'  # Replace with the target URL
 
 try:
     response = requests.get(url)
